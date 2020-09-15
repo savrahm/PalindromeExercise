@@ -14,7 +14,7 @@ namespace PalindromeExercise
             int end = str.Count()-1;
             bool isPalindrome = true;
 
-            for (start = 0; start < end; start++, end--)
+            for (start = 0; start < end && isPalindrome == true; start++, end--)
             {
                 if (str[start] == str[end])
                     isPalindrome = true;
